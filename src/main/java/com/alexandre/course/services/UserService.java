@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.alexandre.course.entities.User;
 import com.alexandre.course.repositories.UserRepository;
 
-@Service
+@Service // registra que é um serviço
 public class UserService {
 
 	@Autowired
